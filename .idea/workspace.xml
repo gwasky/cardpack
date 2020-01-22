@@ -76,14 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Play.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Play.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/awamo/Play.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="16" selection-start="2417" selection-end="2417" vertical-scroll-proportion="-57.8" vertical-offset="0" max-vertical-offset="2057">
-              <folding>
-                <element signature="e#371#377#0" expanded="true" />
-                <element signature="e#432#438#0" expanded="true" />
-              </folding>
+            <state line="73" column="39" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.48380566" vertical-offset="968" max-vertical-offset="1666">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,22 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="System.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="19" selection-start="1366" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="21012">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/awamo/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="44" selection-start="373" selection-end="373" vertical-scroll-proportion="0.3603083" vertical-offset="51" max-vertical-offset="2550">
-              <folding>
-                <element signature="e#191#197#0" expanded="true" />
-              </folding>
+            <state line="21" column="30" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2533">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,8 +136,8 @@
         <option value="$PROJECT_DIR$/src/org/awamo/Player.java" />
         <option value="$PROJECT_DIR$/src/org/awamo/PlayTest.java" />
         <option value="$PROJECT_DIR$/src/org/awamo/Card.java" />
-        <option value="$PROJECT_DIR$/src/org/awamo/Play.java" />
         <option value="$PROJECT_DIR$/src/org/awamo/Main.java" />
+        <option value="$PROJECT_DIR$/src/org/awamo/Play.java" />
       </list>
     </option>
   </component>
@@ -539,12 +525,12 @@
       <created>1579596610553</created>
       <updated>1579596610553</updated>
       <workItem from="1579596614001" duration="14151000" />
-      <workItem from="1579620899549" duration="19766000" />
+      <workItem from="1579620899549" duration="21058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33917000" />
+    <option name="totallyTimeSpent" value="35209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -612,10 +598,7 @@
     <entry file="file://$PROJECT_DIR$/src/org/awamo/Play.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="21" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1275">
-          <folding>
-            <element signature="e#371#377#0" expanded="true" />
-            <element signature="e#432#438#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -638,9 +621,7 @@
     <entry file="file://$PROJECT_DIR$/src/org/awamo/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="44" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="663">
-          <folding>
-            <element signature="e#191#197#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -712,6 +693,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/awamo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="30" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="19" selection-start="1366" selection-end="1394" vertical-scroll-proportion="0.37764934" vertical-offset="110" max-vertical-offset="21012">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/awamo/PlayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="39" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="1258">
@@ -721,29 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="19" selection-start="1366" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="21012">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/awamo/Play.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="16" selection-start="2417" selection-end="2417" vertical-scroll-proportion="-57.8" vertical-offset="0" max-vertical-offset="2057">
-          <folding>
-            <element signature="e#371#377#0" expanded="true" />
-            <element signature="e#432#438#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/awamo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="44" selection-start="373" selection-end="373" vertical-scroll-proportion="0.3603083" vertical-offset="51" max-vertical-offset="2550">
-          <folding>
-            <element signature="e#191#197#0" expanded="true" />
-          </folding>
+        <state line="73" column="39" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.48380566" vertical-offset="968" max-vertical-offset="1666">
+          <folding />
         </state>
       </provider>
     </entry>

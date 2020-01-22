@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class Main {
 
-    public static List<Card> cards = new ArrayList<Card>();
+    public static List<Card> cards = new ArrayList<>();
 
     static List<Integer> p1PointsPerRound = new ArrayList<>();
     static List<Integer> p2PointsPerRound = new ArrayList<>();
@@ -93,7 +93,6 @@ public class Main {
         }
 
         System.out.println("]");
-
 
         checkWinner(p1Points,p2Points);
 

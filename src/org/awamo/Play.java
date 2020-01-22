@@ -14,8 +14,8 @@ public class Play {
     public Player player1 = new Player();
     public Player player2 = new Player();
 
-    private List<Card> player1Cards = new ArrayList<Card>();
-    private List<Card> player2Cards = new ArrayList<Card>();
+    private List<Card> player1Cards = new ArrayList<>();
+    private List<Card> player2Cards = new ArrayList<>();
 
     public Play(List<Card> availableCards) {
         this.availableCards = availableCards;
@@ -69,8 +69,6 @@ public class Play {
                 // Remove Card from Pack
                 this.availableCards.remove(this.currentIndex);
 
-                // System.out.println("===============================================");
-
             } else {
 
                 player2Cards.add(card);
@@ -82,27 +80,6 @@ public class Play {
                 // Remove Card from Pack
                 this.availableCards.remove(this.currentIndex);
 
-                // System.out.println("===============================================");
-            }
-
-        } else {
-
-            System.out.println("All Cards Have been Issued");
-
-            System.out.println("Player 1");
-
-            for (Card card1 : this.player1.getPlayerCards()) {
-
-                System.out.print(card1.getValue() + ",");
-            }
-
-            System.out.println();
-
-            System.out.println("Player 2");
-
-            for (Card card2 : this.player2.getPlayerCards()) {
-
-                System.out.print(card2.getValue() + ",");
             }
 
         }
