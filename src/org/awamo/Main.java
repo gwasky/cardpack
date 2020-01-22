@@ -19,7 +19,7 @@ public class Main {
 
         int packSize = cards.size();
 
-        System.out.println(" Card Count " + packSize);
+        System.out.println(" CARD COUNT " + packSize + "\n");
 
         Play play = new Play(cards);
 
@@ -35,7 +35,7 @@ public class Main {
 
             // System.out.println(" End of Iteration " + i);
 
-            System.out.println("===============================================");
+            System.out.println("======================================================================");
 
         }
 
@@ -108,9 +108,12 @@ public class Main {
         return cards;
     }
 
+    // 1 for win, 0 for loss
     public static void checkWinnerPerRound(List<Card> p1, List<Card> p2 ){
 
         if(p1.size() == p2.size()){
+
+            int x = 1;
 
             for(int i = 0; i < p1.size(); i++) {
 
@@ -119,14 +122,16 @@ public class Main {
                     p1PointsPerRound.add(1);
                     p2PointsPerRound.add(0);
 
-                    System.out.println(" Player 1 Wins Round " + i);
+                    System.out.println(" Player 1 Wins Round " + x);
 
                 } else {
                     p1PointsPerRound.add(0);
                     p2PointsPerRound.add(1);
 
-                    System.out.println(" Player 2 Wins Round " + i);
+                    System.out.println(" Player 2 Wins Round " + x);
                 }
+
+                x += 1;
             }
         } else {
             // If there's a chance a user has less
